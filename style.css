@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url(./depositphotos_49203403-stock-illustration-pizza-background.jpg);
+}
+.container{
+    max-width: 910px;
+    margin: 30px auto;
+    height: 420px;
+    width: 300px;
+    padding: 0px 20px 20px 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-image: url(./istockphoto-1187426116-170667a.jpg);
+}
+.slider{
+    width: 300px;
+    height: 300px;
+    margin: 30px auto;
+    position: relative;
+    overflow: hidden;
+}
+.slider-line{
+    position: absolute;
+    width: 910px;
+    height: 300px;
+    transition: 1s;
+}
+.slider-line img{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+.prev{
+    width: 50px;
+    transform: rotate(145deg);
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.next{
+    width: 50px;
+    transform: rotate(320deg);
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+.slider-next{
+    margin-left: 120px;
+    background: transparent;
+    border: 0px;
+    background: none;
+}
+.slider-next:hover{
+    filter: drop-shadow(8px 8px 4px rgb(226, 135, 15));
+    transform: scale(1.3);
+}
+.slider-prev{
+    margin-left: 15px;
+    background: transparent;
+    border: 0px;
+    background: none;
+}
+.slider-prev:hover{
+    filter: drop-shadow(8px 8px 4px rgb(226, 135, 15));
+    transform: scale(1.3);
+}
